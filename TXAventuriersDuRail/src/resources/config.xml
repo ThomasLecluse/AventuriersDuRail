@@ -1,0 +1,4 @@
+<config>
+    <routeDouble>false</routeDouble>
+    <boardPath>./src/resources/board/Europe.xml</boardPath>
+</config>

@@ -1,0 +1,645 @@
+<!-- couleurs : 
+R: Red 
+P: Pink 
+G: Green 
+B: Blue 
+D: Dark  
+W: White 
+Y: Yellow 
+O: Orange 
+N: Null-->
+
+<listeRoutes>
+    
+    <route> 
+        <ville1>Cadiz</ville1>
+        <ville2>Lisboa</ville2>
+        <cout>2</cout>
+        <couleur>B</couleur>
+    </route>
+
+    <route> 
+        <ville1>Cadiz</ville1>
+        <ville2>Madrid</ville2>
+        <cout>3</cout>
+        <couleur>O</couleur>
+    </route>
+
+    <route> 
+        <ville1>Lisboa</ville1>
+        <ville2>Madrid</ville2>
+        <cout>3</cout>
+        <couleur>P</couleur>
+    </route>
+
+    <route> 
+        <ville1>Barcelona</ville1>
+        <ville2>Madrid</ville2>
+        <cout>2</cout>
+        <couleur>Y</couleur>
+    </route>
+
+    <route> 
+        <ville1>Barcelona</ville1>
+        <ville2>Pamplona</ville2>
+        <cout>2</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Madrid</ville1>
+        <ville2>Pamplona</ville2>
+        <cout>3</cout>
+        <couleur>W,D</couleur>
+    </route>
+
+    <route> 
+        <ville1>Brest</ville1>
+        <ville2>Pamplona</ville2>
+        <cout>4</cout>
+        <couleur>P</couleur>
+    </route>
+
+    <route> 
+        <ville1>Brest</ville1>
+        <ville2>Paris</ville2>
+        <cout>3</cout>
+        <couleur>D</couleur>
+    </route>
+
+    <route> 
+        <ville1>Pamplona</ville1>
+        <ville2>Paris</ville2>
+        <cout>4</cout>
+        <couleur>B,G</couleur>
+    </route>
+
+    <route> 
+        <ville1>Brest</ville1>
+        <ville2>Dieppe</ville2>
+        <cout>2</cout>
+        <couleur>O</couleur>
+    </route>
+
+    <route> 
+        <ville1>Dieppe</ville1>
+        <ville2>London</ville2>
+        <cout>2</cout>
+        <couleur>N,N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Edinburgh</ville1>
+        <ville2>London</ville2>
+        <cout>4</cout>
+        <couleur>D,O</couleur>
+    </route>
+
+    <route> 
+        <ville1>Amsterdam</ville1>
+        <ville2>London</ville2>
+        <cout>2</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Dieppe</ville1>
+        <ville2>Paris</ville2>
+        <cout>1</cout>
+        <couleur>P</couleur>
+    </route>
+
+    <route> 
+        <ville1>Bruxelles</ville1>
+        <ville2>Dieppe</ville2>
+        <cout>2</cout>
+        <couleur>G</couleur>
+    </route>
+
+    <route> 
+        <ville1>Amsterdam</ville1>
+        <ville2>Bruxelles</ville2>
+        <cout>1</cout>
+        <couleur>D</couleur>
+    </route>
+
+    <route> 
+        <ville1>Bruxelles</ville1>
+        <ville2>Paris</ville2>
+        <cout>2</cout>
+        <couleur>Y,R</couleur>
+    </route>
+
+    <route> 
+        <ville1>Barcelona</ville1>
+        <ville2>Marseille</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Marseille</ville1>
+        <ville2>Pamplona</ville2>
+        <cout>4</cout>
+        <couleur>R</couleur>
+    </route>
+
+    <route> 
+        <ville1>Marseille</ville1>
+        <ville2>Paris</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Paris</ville1>
+        <ville2>Zurich</ville2>
+        <cout>3</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Frankfurt</ville1>
+        <ville2>Paris</ville2>
+        <cout>3</cout>
+        <couleur>W,O</couleur>
+    </route>
+
+    <route> 
+        <ville1>Bruxelles</ville1>
+        <ville2>Frankfurt</ville2>
+        <cout>2</cout>
+        <couleur>B</couleur>
+    </route>
+
+    <route> 
+        <ville1>Amsterdam</ville1>
+        <ville2>Frankfurt</ville2>
+        <cout>2</cout>
+        <couleur>W</couleur>
+    </route>
+
+    <route> 
+        <ville1>Amsterdam</ville1>
+        <ville2>Essen</ville2>
+        <cout>3</cout>
+        <couleur>Y</couleur>
+    </route>
+
+    <route> 
+        <ville1>Marseille</ville1>
+        <ville2>Roma</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Marseille</ville1>
+        <ville2>Zurich</ville2>
+        <cout>2</cout>
+        <couleur>P</couleur>
+    </route>
+
+    <route> 
+        <ville1>Venezia</ville1>
+        <ville2>Zurich</ville2>
+        <cout>2</cout>
+        <couleur>G</couleur>
+    </route>
+
+    <route> 
+        <ville1>Munchen</ville1>
+        <ville2>Zurich</ville2>
+        <cout>2</cout>
+        <couleur>Y</couleur>
+    </route>
+
+    <route> 
+        <ville1>Frankfurt</ville1>
+        <ville2>Munchen</ville2>
+        <cout>2</cout>
+        <couleur>P</couleur>
+    </route>
+
+    <route> 
+        <ville1>Essen</ville1>
+        <ville2>Frankfurt</ville2>
+        <cout>2</cout>
+        <couleur>G</couleur>
+    </route>
+
+    <route> 
+        <ville1>Essen</ville1>
+        <ville2>Kobenhavn</ville2>
+        <cout>3</cout>
+        <couleur>N,N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Berlin</ville1>
+        <ville2>Essen</ville2>
+        <cout>2</cout>
+        <couleur>B</couleur>
+    </route>
+
+    <route> 
+        <ville1>Berlin</ville1>
+        <ville2>Frankfurt</ville2>
+        <cout>3</cout>
+        <couleur>R,D</couleur>
+    </route>
+
+    <route> 
+        <ville1>Berlin</ville1>
+        <ville2>Wien</ville2>
+        <cout>3</cout>
+        <couleur>G</couleur>
+    </route>
+
+    <route> 
+        <ville1>Munchen</ville1>
+        <ville2>Wien</ville2>
+        <cout>3</cout>
+        <couleur>O</couleur>
+    </route>
+
+    <route> 
+        <ville1>Venezia</ville1>
+        <ville2>Zagrab</ville2>
+        <cout>2</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Roma</ville1>
+        <ville2>Venezia</ville2>
+        <cout>2</cout>
+        <couleur>D</couleur>
+    </route>
+
+    <route> 
+        <ville1>Wien</ville1>
+        <ville2>Zagrab</ville2>
+        <cout>2</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Brindisi</ville1>
+        <ville2>Roma</ville2>
+        <cout>2</cout>
+        <couleur>W</couleur>
+    </route>
+
+    <route> 
+        <ville1>Palermo</ville1>
+        <ville2>Roma</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Sarajevo</ville1>
+        <ville2>Zagreb</ville2>
+        <cout>3</cout>
+        <couleur>R</couleur>
+    </route>
+
+    <route> 
+        <ville1>Brindisi</ville1>
+        <ville2>Palermo</ville2>
+        <cout>3</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Budapest</ville1>
+        <ville2>Wien</ville2>
+        <cout>1</cout>
+        <couleur>R,W</couleur>
+    </route>
+
+    <route> 
+        <ville1>Budapest</ville1>
+        <ville2>Zagrab</ville2>
+        <cout>2</cout>
+        <couleur>O</couleur>
+    </route>
+
+    <route> 
+        <ville1>Budapest</ville1>
+        <ville2>Sarajevo</ville2>
+        <cout>3</cout>
+        <couleur>P</couleur>
+    </route>
+
+    <route> 
+        <ville1>Kobenhavn</ville1>
+        <ville2>Stockholm</ville2>
+        <cout>3</cout>
+        <couleur>Y,W</couleur>
+    </route>
+
+    <route> 
+        <ville1>Berlin</ville1>
+        <ville2>Danzig</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Danzig</ville1>
+        <ville2>Warszawa</ville2>
+        <cout>2</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Berlin</ville1>
+        <ville2>Warszawa</ville2>
+        <cout>4</cout>
+        <couleur>Y,P</couleur>
+    </route>
+
+    <route> 
+        <ville1>Warszawa</ville1>
+        <ville2>Wien</ville2>
+        <cout>4</cout>
+        <couleur>B</couleur>
+    </route>
+
+    <route> 
+        <ville1>Sarajevo</ville1>
+        <ville2>Sofia</ville2>
+        <cout>2</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Athina</ville1>
+        <ville2>Sarajevo</ville2>
+        <cout>4</cout>
+        <couleur>G</couleur>
+    </route>
+
+    <route> 
+        <ville1>Athina</ville1>
+        <ville2>Sofia</ville2>
+        <cout>3</cout>
+        <couleur>P</couleur>
+    </route>
+
+    <route> 
+        <ville1>Athina</ville1>
+        <ville2>Brindisi</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Palermo</ville1>
+        <ville2>Smyrna</ville2>
+        <cout>6</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Angora</ville1>
+        <ville2>Smyrna</ville2>
+        <cout>3</cout>
+        <couleur>O</couleur>
+    </route>
+
+    <route> 
+        <ville1>Athina</ville1>
+        <ville2>Smyrna</ville2>
+        <cout>2</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Constantinople</ville1>
+        <ville2>Smyrna</ville2>
+        <cout>2</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Angora</ville1>
+        <ville2>Constantinople</ville2>
+        <cout>2</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Constantinople</ville1>
+        <ville2>Sofia</ville2>
+        <cout>3</cout>
+        <couleur>B</couleur>
+    </route>
+
+    <route> 
+        <ville1>Constantinople</ville1>
+        <ville2>Sevastopol</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Bucuresti</ville1>
+        <ville2>Constantinople</ville2>
+        <cout>3</cout>
+        <couleur>Y</couleur>
+    </route>
+
+    <route> 
+        <ville1>Bucuresti</ville1>
+        <ville2>Sofia</ville2>
+        <cout>2</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Bucuresti</ville1>
+        <ville2>Sevastopol</ville2>
+        <cout>4</cout>
+        <couleur>W</couleur>
+    </route>
+
+    <route> 
+        <ville1>Bucuresti</ville1>
+        <ville2>Budapest</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Bucuresti</ville1>
+        <ville2>Kyiv</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Budapest</ville1>
+        <ville2>Kyiv</ville2>
+        <cout>6</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Warszawa</ville1>
+        <ville2>Wilno</ville2>
+        <cout>3</cout>
+        <couleur>R</couleur>
+    </route>
+
+    <route> 
+        <ville1>Riga</ville1>
+        <ville2>Wilno</ville2>
+        <cout>4</cout>
+        <couleur>G</couleur>
+    </route>
+
+    <route> 
+        <ville1>Danzig</ville1>
+        <ville2>Riga</ville2>
+        <cout>3</cout>
+        <couleur>D</couleur>
+    </route>
+
+    <route> 
+        <ville1>Smolensk</ville1>
+        <ville2>Wilno</ville2>
+        <cout>3</cout>
+        <couleur>Y</couleur>
+    </route>
+
+    <route> 
+        <ville1>Kyiv</ville1>
+        <ville2>Wilno</ville2>
+        <cout>2</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Petrograd</ville1>
+        <ville2>Stockholm</ville2>
+        <cout>8</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Petrograd</ville1>
+        <ville2>Wilno</ville2>
+        <cout>4</cout>
+        <couleur>B</couleur>
+    </route>
+
+    <route> 
+        <ville1>Petrograd</ville1>
+        <ville2>Riga</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Kyiv</ville1>
+        <ville2>Smolensk</ville2>
+        <cout>3</cout>
+        <couleur>R</couleur>
+    </route>
+
+    <route> 
+        <ville1>Moskva</ville1>
+        <ville2>Petrograd</ville2>
+        <cout>4</cout>
+        <couleur>W</couleur>
+    </route>
+
+    <route> 
+        <ville1>Moskva</ville1>
+        <ville2>Smolensk</ville2>
+        <cout>2</cout>
+        <couleur>O</couleur>
+    </route>
+
+    <route> 
+        <ville1>Kharkov</ville1>
+        <ville2>Moskva</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Kharkov</ville1>
+        <ville2>Kyiv</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Kharkov</ville1>
+        <ville2>Rostov</ville2>
+        <cout>2</cout>
+        <couleur>G</couleur>
+    </route>
+
+    <route> 
+        <ville1>Rostov</ville1>
+        <ville2>Sochi</ville2>
+        <cout>2</cout>
+        <couleur>N</couleur>
+    </route>
+
+
+    <route> 
+        <ville1>Erzurum</ville1>
+        <ville2>Sochi</ville2>
+        <cout>3</cout>
+        <couleur>R</couleur>
+    </route>
+
+    <route> 
+        <ville1>Angora</ville1>
+        <ville2>Erzurum</ville2>
+        <cout>3</cout>
+        <couleur>D</couleur>
+    </route>
+
+    <route> 
+        <ville1>Sevastopol</ville1>
+        <ville2>Sochi</ville2>
+        <cout>2</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Rostov</ville1>
+        <ville2>Sevastopol</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Erzurum</ville1>
+        <ville2>Sevastopol</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+
+    <route> 
+        <ville1>Munchen</ville1>
+        <ville2>Venezia</ville2>
+        <cout>2</cout>
+        <couleur>B</couleur>
+    </route>
+
+    <route> 
+        <ville1>Kyiv</ville1>
+        <ville2>Warszawa</ville2>
+        <cout>4</cout>
+        <couleur>N</couleur>
+    </route>
+    
+</listeRoutes>
